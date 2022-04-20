@@ -66,7 +66,7 @@ class HouseTest < Minitest::Test
   end
 
   def test_all_the_lines
-    skip
+    
     expected = <<-TEXT
 This is the house that Jack built.
 
@@ -94,5 +94,4 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
     TEXT
     assert_equal expected, House.new.recite
   end
-
 end
