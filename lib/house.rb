@@ -1,6 +1,6 @@
 class House
 
-  def avoid_shameless_line(number)
+  def episodes(number)
     case number 
     when 1
       "house"
@@ -30,7 +30,7 @@ class House
   end
 
   def line(number)
-      "This is the #{avoid_shameless_line(number)} that Jack built.\n"
+      "This is the #{episodes(number)} that Jack built.\n"
   end
 
   def recite()
