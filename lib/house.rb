@@ -17,7 +17,7 @@ class House
     when 7
       "#{lyrics[number-1]} #{episodes(number-1)}"
     when 8
-      "the man all tattered and torn that kissed #{episodes(number-1)}"
+      "#{lyrics[number-1]} #{episodes(number-1)}"
     when 9
       "the priest all shaven and shorn that married #{episodes(number-1)}"
     when 10
