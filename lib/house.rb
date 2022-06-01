@@ -10,7 +10,7 @@ class House
   end
 
   def line(number)
-      "This is #{episodes(number)}the house that Jack built.\n"
+      "This is #{lyrics.last(number).join(" ")}"
   end
 
   def recite()
