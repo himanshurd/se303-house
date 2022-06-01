@@ -16,8 +16,6 @@ class House
       "#{lyrics[number-1]} #{episodes(number-1)}"
     when 7
       "#{lyrics[number-1]} #{episodes(number-1)}"
-    when 8
-      "#{lyrics[number-1]} #{episodes(number-1)}"
     else
       "#{lyrics[number-1]} #{episodes(number-1)}"  
     end
