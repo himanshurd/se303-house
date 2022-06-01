@@ -5,7 +5,7 @@ class House
     when 1
       ""
     when 2
-      "the malt that lay in #{episodes(number-1)}"
+      "#{lyrics[number-1]} #{episodes(number-1)}"
     when 3
       "the rat that ate #{episodes(number-1)}"
     when 4
@@ -37,20 +37,21 @@ class House
     (1..12).map {|number| line(number)}.join("\n")
   end
 
+
   def lyrics
-    [ 
-      "the horse and the hound and the horn that belonged to",
-      "the farmer sowing his corn that kept",
-      "the rooster that crowed in the morn that woke",
-      "the priest all shaven and shorn that married",
-      "the man all tattered and torn that kissed",
-      "the maiden all forlorn that milked",
-      "the cow with the crumpled horn that tossed",
-      "the dog that worried",
-      "the cat that killed",
-      "the rat that ate",
+    [
+      "the house that Jack built.\n",
       "the malt that lay in",
-      "the house that Jack built.\n"
+      "the rat that ate",
+      "the cat that killed",
+      "the dog that worried",
+      "the cow with the crumpled horn that tossed",
+      "the maiden all forlorn that milked",
+      "the man all tattered and torn that kissed",
+      "the priest all shaven and shorn that married",
+      "the rooster that crowed in the morn that woke",
+      "the farmer sowing his corn that kept",
+      "the horse and the hound and the horn that belonged to"
     ]
   end
 end
