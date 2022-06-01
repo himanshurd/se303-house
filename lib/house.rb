@@ -23,7 +23,7 @@ class House
     when 10
       "#{lyrics[number-1]} #{episodes(number-1)}"
     when 11
-      "the farmer sowing his corn that kept #{episodes(number-1)}"
+      "#{lyrics[number-1]} #{episodes(number-1)}"
     when 12
       "the horse and the hound and the horn that belonged to #{episodes(number-1)}"  
     end
