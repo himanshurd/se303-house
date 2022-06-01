@@ -10,7 +10,7 @@ class House
 
   def lyrics
     [
-      "the #{noun.last(number).join(" ")} and the hound and the horn that belonged to",
+      "the horse and the hound and the horn that belonged to",
       "the farmer sowing his corn that kept",
       "the rooster that crowed in the morn that woke",
       "the priest all shaven and shorn that married",
@@ -26,18 +26,17 @@ class House
   end
 
   def noun
-    [ "horse",
-      "farmer",
-      "rooster",
-      "priest",
-      "man",
-      "maiden",
-      "cow",
-      "dog",
-      "cat",
-      "rat",
-      "malt",
-      "house"
+    [ "the horse and the hound and the horn",
+      "the farmer sowing his corn",
+      "the rooster that crowed in the morn",
+      "the priest all shaven and shorn ",
+      "the man all tattered and torn",
+      "the maiden all forlorn",
+      "the cow with the crumpled horn",
+      "the dog",
+      "the cat",
+      "the rat",
+      "the malt",
     ]
   end
 end
