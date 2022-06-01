@@ -19,7 +19,7 @@ class House
     when 8
       "#{lyrics[number-1]} #{episodes(number-1)}"
     when 9
-      "the priest all shaven and shorn that married #{episodes(number-1)}"
+      "#{lyrics[number-1]} #{episodes(number-1)}"
     when 10
       "the rooster that crowed in the morn that woke #{episodes(number-1)}"
     when 11
