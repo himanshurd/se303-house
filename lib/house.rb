@@ -15,7 +15,7 @@ class House
     when 6
       "#{lyrics[number-1]} #{episodes(number-1)}"
     when 7
-      "the maiden all forlorn that milked #{episodes(number-1)}"
+      "#{lyrics[number-1]} #{episodes(number-1)}"
     when 8
       "the man all tattered and torn that kissed #{episodes(number-1)}"
     when 9
