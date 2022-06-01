@@ -5,7 +5,7 @@ class House
     when 1
       ""
     when 2
-      "the malt that lay in "
+      "the malt that lay in #{episodes(number-1)}"
     when 3
       "the rat that ate the malt that lay in "
     when 4
