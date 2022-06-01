@@ -3,34 +3,34 @@ class House
   def episodes(number)
     case number 
     when 1
-      "house"
+      ""
     when 2
-      "malt that lay in the house"
+      "the malt that lay in "
     when 3
-      "rat that ate the malt that lay in the house"
+      "the rat that ate the malt that lay in "
     when 4
-      "cat that killed the rat that ate the malt that lay in the house"
+      "the cat that killed the rat that ate the malt that lay in "
     when 5
-      "dog that worried the cat that killed the rat that ate the malt that lay in the house"
+      "the dog that worried the cat that killed the rat that ate the malt that lay in "
     when 6
-      "cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house"
+      "the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
     when 7
-      "maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house"
+      "the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
     when 8
-      "man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house"
+      "the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
     when 9
-      "priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house"
+      "the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
     when 10
-      "rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house"
+      "the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
     when 11
-      "farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house"
+      "the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
     when 12
-      "horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house"  
+      "the horse and the hound and the horn that belonged to the farmer sowing his corn that kept the rooster that crowed in the morn that woke the priest all shaven and shorn that married the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "  
     end
   end
 
   def line(number)
-      "This is the #{episodes(number)} that Jack built.\n"
+      "This is #{episodes(number)}the house that Jack built.\n"
   end
 
   def recite()
