@@ -1,14 +1,5 @@
 class House
 
-  def episodes(number)
-    case number 
-    when 1
-      ""
-    else
-      "#{lyrics[number-1]} #{episodes(number-1)}"  
-    end
-  end
-
   def line(number)
       "This is #{lyrics.last(number).join(" ")}"
   end
