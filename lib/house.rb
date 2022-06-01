@@ -21,7 +21,7 @@ class House
     when 9
       "#{lyrics[number-1]} #{episodes(number-1)}"
     when 10
-      "the rooster that crowed in the morn that woke #{episodes(number-1)}"
+      "#{lyrics[number-1]} #{episodes(number-1)}"
     when 11
       "the farmer sowing his corn that kept #{episodes(number-1)}"
     when 12
