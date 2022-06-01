@@ -36,5 +36,10 @@ class House
   def recite()
     (1..12).map {|number| line(number)}.join("\n")
   end
+
+  def lyrics
+    [
+      
+    ]
   
 end
