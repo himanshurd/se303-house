@@ -25,7 +25,7 @@ class House
     when 11
       "#{lyrics[number-1]} #{episodes(number-1)}"
     when 12
-      "the horse and the hound and the horn that belonged to #{episodes(number-1)}"  
+      "#{lyrics[number-1]} #{episodes(number-1)}"  
     end
   end
 
