@@ -13,7 +13,7 @@ class House
     when 5
       "#{lyrics[number-1]} #{episodes(number-1)}"
     when 6
-      "the cow with the crumpled horn that tossed #{episodes(number-1)}"
+      "#{lyrics[number-1]} #{episodes(number-1)}"
     when 7
       "the maiden all forlorn that milked #{episodes(number-1)}"
     when 8
