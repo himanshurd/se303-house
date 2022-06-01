@@ -10,7 +10,7 @@ class House
 
   def lyrics
     [
-      "the horse and the hound and the horn that belonged to",
+      "the #{noun.last(number).join(" ")} and the hound and the horn that belonged to",
       "the farmer sowing his corn that kept",
       "the rooster that crowed in the morn that woke",
       "the priest all shaven and shorn that married",
@@ -22,6 +22,22 @@ class House
       "the rat that ate",
       "the malt that lay in",
       "the house that Jack built.\n"
+    ]
+  end
+
+  def noun
+    [ "horse",
+      "farmer",
+      "rooster",
+      "priest",
+      "man",
+      "maiden",
+      "cow",
+      "dog",
+      "cat",
+      "rat",
+      "malt",
+      "house"
     ]
   end
 end
