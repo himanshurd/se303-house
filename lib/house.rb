@@ -9,7 +9,7 @@ class House
     when 3
       "#{lyrics[number-1]} #{episodes(number-1)}"
     when 4
-      "the cat that killed #{episodes(number-1)}"
+      "#{lyrics[number-1]} #{episodes(number-1)}"
     when 5
       "the dog that worried #{episodes(number-1)}"
     when 6
