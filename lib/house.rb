@@ -2,6 +2,7 @@ class House
 
   def initialize(prefix = "This is")
     @prefix = prefix
+    @lyrics = lyrics
   end
 
   def line(number)
