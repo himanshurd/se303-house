@@ -13,23 +13,6 @@ class House
     (1..12).map {|number| line(number)}.join("\n")
   end
 
-  def actions
-    [
-      "that belonged to",
-      "that kept",
-      "that woke",
-      "that married",
-      "that kissed",
-      "that milked",
-      "that tossed",
-      "that worried",
-      "that killed",
-      "that ate",
-      "that lay in",
-      "that Jack built.\n"
-    ]
-  end
-
   def lyrics 
     noun.zip(actions)
   end
