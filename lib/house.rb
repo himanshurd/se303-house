@@ -95,5 +95,5 @@ class LyricsHouse < House
   def lyrics 
     noun.zip(actions)
   end
-  
+
 end
