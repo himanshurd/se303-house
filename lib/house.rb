@@ -49,5 +49,9 @@ class House
   def lyrics 
     noun.zip(actions)
   end
+end
+
+class RandomHouse 
+  
 
 end
