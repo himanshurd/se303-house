@@ -12,10 +12,6 @@ class House
   def recite()
     (1..12).map {|number| line(number)}.join("\n")
   end
-
-  def lyrics 
-    noun.zip(actions)
-  end
 end
 
 class RandomHouse < House
