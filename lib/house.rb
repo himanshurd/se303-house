@@ -51,7 +51,8 @@ class House
   end
 end
 
-class RandomHouse 
-  
-
+class RandomHouse < House
+  def lyrics
+    super.shuffle
+  end
 end
