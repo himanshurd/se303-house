@@ -3,9 +3,9 @@ class House
   def initialize(prefix = "This is")
     @prefix = prefix
   end
-  
+
   def line(number)
-      "This is #{lyrics.last(number).join(" ")}"
+      "#{@prefix} #{lyrics.last(number).join(" ")}"
   end
 
   def recite()
