@@ -39,4 +39,20 @@ class House
       "the malt",
     ]
   end
+
+  def actions
+    [
+      "that belonged to",
+      "that kept",
+      "that woke",
+      "that married",
+      "that kissed",
+      "that milked",
+      "that tossed",
+      "that worried",
+      "that killed",
+      "that ate",
+      "that lay in"
+    ]
+  end
 end
