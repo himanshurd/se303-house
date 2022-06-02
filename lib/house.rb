@@ -59,4 +59,9 @@ class House
       "that lay in"
     ]
   end
+
+  def lyrics 
+    noun.zip(actions)
+  end
+
 end
