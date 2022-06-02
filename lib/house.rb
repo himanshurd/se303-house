@@ -21,6 +21,11 @@ class RandomHouse < House
 end
 
 class LyricsHouse < House
+
+  def initialize
+    @noun = noun
+    @actions = actions 
+  end
   
   def noun
     [ "the horse and the hound and the horn",
