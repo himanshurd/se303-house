@@ -2,11 +2,11 @@ class House
 
   def initialize(prefix = "This is")
     @prefix = prefix
-    @lyrics = lyrics
+    @verse = LyricsHouse.new()
   end
 
   def line(number)
-      "#{@prefix} #{lyrics.last(number).join(" ")}"
+      "#{@prefix} #{@verse.lyrics.last(number).join(" ")}"
   end
 
   def recite()
