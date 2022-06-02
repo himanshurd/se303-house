@@ -56,3 +56,7 @@ class RandomHouse < House
     super.shuffle
   end
 end
+
+class LyricsHouse
+  
+end
