@@ -91,4 +91,9 @@ class LyricsHouse < House
       "that Jack built.\n"
     ]
   end
+
+  def lyrics 
+    noun.zip(actions)
+  end
+  
 end
