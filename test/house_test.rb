@@ -185,3 +185,11 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
       assert_equal expected, Pirate.new.recite
     end
 end
+
+class RandomHouseTest < Minitest::Test
+  def test_randomhouse_line
+    line = RandomHouse.new.line(3)
+    puts "House"+line
+    assert "This is the house that Jack built.\n" != line
+  end
+end
