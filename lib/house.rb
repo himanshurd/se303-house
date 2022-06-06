@@ -4,12 +4,16 @@ class House
 
   def initialize(prefix = "This is")
     @prefix = prefix
-    @verse = LyricsHouse.new()
+    #@verse = LyricsHouse.new()
   end
 
   def line(number)
     "#{@prefix}#{lyrics(number)} the house that Jack built.\n"
   end
+
+  def lyrics(number=nil)
+		(number-1).downto(1).collect { |i| self.class::Noun[-i]+self.class::Actions[-i] }.join("")
+	end
 
   def recite()
     (1..12).map {|number| line(number)}.join("\n")
