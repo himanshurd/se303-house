@@ -201,3 +201,11 @@ class MixedHouseActionsTest < Minitest::Test
     assert "This is the rat that ate the malt that lay in the house that Jack built.\n" != line
   end
 end
+
+class RandomPirateTest < Minitest::Test
+  def test_random_pirate_line
+    line = RandomPirate.new.line(3)
+    puts "Pirate"+line
+  assert "Thar be the house that Jack built.\n" != line
+end
+end
