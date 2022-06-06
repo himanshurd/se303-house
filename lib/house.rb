@@ -19,14 +19,18 @@ class House
   end
 end
 
+class Pirate < House
+	def line(number)
+		"Thar be#{lyrics(number)} the house that Jack built.\n"
+	end
+end
+
 class RandomHouse < House
   shuffle = Noun.zip(Actions).shuffle
 	Noun = shuffle.collect { |line, verb| line }
 	Actions = shuffle.collect { |line, verb| verb }
 end
 
-class Pirate < House
-	def line(number)
-		"Thar be#{lyrics(number)} the house that Jack built.\n"
-	end
+class MixedHouseActions < House
+	Actions = Actions.shuffle
 end
