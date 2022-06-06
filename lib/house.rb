@@ -8,7 +8,7 @@ class House
   end
 
   def line(number)
-      "#{@prefix} #{@verse.lyrics.last(number).join(" ")}"
+    "#{@prefix}#{lyrics(number)} the house that Jack built.\n"
   end
 
   def recite()
