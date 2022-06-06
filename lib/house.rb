@@ -20,9 +20,9 @@ class House
 end
 
 class RandomHouse < House
-  def lyrics
-    super.shuffle
-  end
+  shuffle = Noun.zip(Actions).shuffle
+	Noun = shuffle.collect { |line, verb| line }
+	Actions = shuffle.collect { |line, verb| verb }
 end
 
 class Pirate < House
