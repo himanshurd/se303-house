@@ -34,3 +34,9 @@ end
 class MixedHouseActions < House
 	Actions = Actions.shuffle
 end
+
+class RandomPirate < Pirate
+	shuffle = Noun.zip(Actions).shuffle
+	Noun = shuffle.collect { |line, verb| line }
+	Actions = shuffle.collect { |line, verb| verb }
+end
