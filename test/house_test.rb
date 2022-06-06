@@ -193,3 +193,11 @@ class RandomHouseTest < Minitest::Test
     assert "This is the house that Jack built.\n" != line
   end
 end
+
+class MixedHouseActionsTest < Minitest::Test
+  def test_actions_are_mixed
+    line = MixedHouseActions.new.line(3)
+    puts "Mixed verb house"+line
+    assert "This is the rat that ate the malt that lay in the house that Jack built.\n" != line
+  end
+end
