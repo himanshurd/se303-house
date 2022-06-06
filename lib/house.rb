@@ -24,3 +24,9 @@ class RandomHouse < House
     super.shuffle
   end
 end
+
+class Pirate < House
+	def line(number)
+		"Thar be#{lyrics(number)} the house that Jack built.\n"
+	end
+end
